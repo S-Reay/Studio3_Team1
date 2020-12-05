@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Hell_Of_A_Game-3092.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"X:\Git\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\Hell_Of_A_GameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"X:\Git\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\UE4Editor\Development\Hell_Of_A_Game\ACC_PlayerFunctions.cpp.obj"
+"X:\Git\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\UE4Editor\Development\Hell_Of_A_Game\Hell_Of_A_Game.cpp.obj"
+"X:\Git\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\UE4Editor\Development\Hell_Of_A_Game\ACC_PlayerFunctions.gen.cpp.obj"
+"X:\Git\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\UE4Editor\Development\Hell_Of_A_Game\Hell_Of_A_Game.init.gen.cpp.obj"
+"X:\Git\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\UE4Editor\Development\Hell_Of_A_Game\Default.rc2.res"
+/OUT:"X:\Git\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\UE4Editor\Development\Hell_Of_A_Game\UE4Editor-Hell_Of_A_Game-3092.lib"
+/INCLUDE:IMPLEMENT_MODULE_Hell_Of_A_Game
