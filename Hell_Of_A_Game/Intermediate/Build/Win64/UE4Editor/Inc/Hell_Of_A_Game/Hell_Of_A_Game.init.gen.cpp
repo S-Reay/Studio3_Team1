@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeHell_Of_A_Game_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x55C63700,
+				0x930B0D9D,
 				0xA066A026,
 				METADATA_PARAMS(nullptr, 0)
 			};

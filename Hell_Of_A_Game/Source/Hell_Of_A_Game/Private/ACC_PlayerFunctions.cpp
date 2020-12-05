@@ -99,3 +99,30 @@ bool UACC_PlayerFunctions::UnlockedShoot(USceneComponent* ShotOrigin, AActor*& r
 	return false;
 }
 
+bool UACC_PlayerFunctions::Melee(USceneComponent* MeleeOrigin, float MeleeRange, TArray<AActor*>& HitEnemies)
+{
+	TArray<TEnumAsByte<EObjectTypeQuery>> objectTypes;
+	objectTypes.Add(UEngineTypes::ConvertToObjectType(ECollisionChannel::ECC_PhysicsBody));
+	objectTypes.Add(UEngineTypes::ConvertToObjectType(ECollisionChannel::ECC_WorldDynamic));
+	TArray<AActor*> actorsToIgnore;
+	actorsToIgnore.Add(GetOwner());
+
+	UKismetSystemLibrary::SphereOverlapActors(GetWorld(), MeleeOrigin->GetComponentLocation(), MeleeRange, objectTypes, nullptr, actorsToIgnore, HitEnemies);
+
+	return false;
+}
+
+FRotator UACC_PlayerFunctions::GetNewRotation(FRotator ControlRotation, USceneComponent* Camera, AActor* TargetEnemy)
+{
+	FVector CameraLocation = Camera->GetComponentLocation();
+	FVector TargetLocation = TargetEnemy->GetActorLocation();
+
+	FRotator LookAtRotation = UKismetMathLibrary::FindLookAtRotation(CameraLocation, TargetLocation);
+	float DeltaSec = GetWorld()->GetDeltaSeconds();
+
+	FRotator InterpValue = FMath::RInterpTo(ControlRotation, LookAtRotation, DeltaSec, 7.f);
+
+	FRotator NewValue = UKismetMathLibrary::MakeRotator(ControlRotation.Roll, ControlRotation.Pitch, InterpValue.Yaw);
+
+	return NewValue;
+}

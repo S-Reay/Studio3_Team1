@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Kismet/KismetMathLibrary.h"
+#include "Kismet/KismetSystemLibrary.h"
 #include "DrawDebugHelpers.h"
 #include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 
@@ -31,6 +32,12 @@ public:
 	
 	UFUNCTION(BlueprintCallable, Category = "PlayerCombat")
 		bool UnlockedShoot(USceneComponent* ShotOrigin, AActor*& returnedHit);
+
+	UFUNCTION(BlueprintCallable, Category = "PlayerCombat")
+		bool Melee(USceneComponent* MeleeOrigin, float MeleeRange, TArray<AActor*>& HitEnemies);
+
+	UFUNCTION(BlueprintCallable, Category = "PlayerComat")
+		FRotator GetNewRotation(FRotator ControlRotation, USceneComponent* Camera, AActor* TargetEnemy);
 
 protected:
 	// Called when the game starts
