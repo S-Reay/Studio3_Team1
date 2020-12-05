@@ -1,4 +1,14 @@
 {
 	"Targets": [
+		{
+			"Name": "Hell_Of_A_Game",
+			"Path": "X:\\Git\\Studio3_Team1\\Hell_Of_A_Game\\Source\\Hell_Of_A_Game.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Hell_Of_A_GameEditor",
+			"Path": "X:\\Git\\Studio3_Team1\\Hell_Of_A_Game\\Source\\Hell_Of_A_GameEditor.Target.cs",
+			"Type": "Editor"
+		}
 	]
 }
