@@ -32,7 +32,7 @@
 /wd4244
 /wd4838
 /I .
-/I X:\Git\Studio3_Team1\Hell_Of_A_Game\Source\Hell_Of_A_Game\Private
+/I C:\Users\arjun\Desktop\Studio3_Team1\Hell_Of_A_Game\Source\Hell_Of_A_Game\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -231,9 +231,9 @@
 /I Runtime\Experimental\GeometryCollectionSimulationCore\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I X:\Git\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\UE4Editor\Inc\Hell_Of_A_Game
-/I X:\Git\Studio3_Team1\Hell_Of_A_Game\Source
-/I X:\Git\Studio3_Team1\Hell_Of_A_Game\Source\Hell_Of_A_Game\Public
+/I C:\Users\arjun\Desktop\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\UE4Editor\Inc\Hell_Of_A_Game
+/I C:\Users\arjun\Desktop\Studio3_Team1\Hell_Of_A_Game\Source
+/I C:\Users\arjun\Desktop\Studio3_Team1\Hell_Of_A_Game\Source\Hell_Of_A_Game\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -257,18 +257,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"X:\Git\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\Hell_Of_A_GameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"X:\Git\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\Hell_Of_A_GameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"X:\Git\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\Hell_Of_A_GameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"X:\Git\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\UE4Editor\Inc\Hell_Of_A_Game\ACC_PlayerFunctions.gen.cpp"
-/FI"X:\Git\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\UE4Editor\Development\Hell_Of_A_Game\Definitions.Hell_Of_A_Game.h"
-/Fo"X:\Git\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\UE4Editor\Development\Hell_Of_A_Game\ACC_PlayerFunctions.gen.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
+/FI"C:\Users\arjun\Desktop\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\Hell_Of_A_GameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\arjun\Desktop\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\Hell_Of_A_GameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\arjun\Desktop\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\Hell_Of_A_GameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\arjun\Desktop\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\UE4Editor\Inc\Hell_Of_A_Game\ACC_PlayerFunctions.gen.cpp"
+/FI"C:\Users\arjun\Desktop\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\UE4Editor\Development\Hell_Of_A_Game\Definitions.Hell_Of_A_Game.h"
+/Fo"C:\Users\arjun\Desktop\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\UE4Editor\Development\Hell_Of_A_Game\ACC_PlayerFunctions.gen.cpp.obj"
 /TP
 /GR-
 /W4
