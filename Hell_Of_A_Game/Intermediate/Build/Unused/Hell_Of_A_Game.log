@@ -1,0 +1,17 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (X:\Git\Studio3_Team1).
+  Parsing headers for Hell_Of_A_GameEditor
+    Running UnrealHeaderTool "X:\Git\Studio3_Team1\Hell_Of_A_Game\Hell_Of_A_Game.uproject" "X:\Git\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\Hell_Of_A_GameEditor\Development\Hell_Of_A_GameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Seth\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for Hell_Of_A_GameEditor in 6.1442567 seconds
+  Building Hell_Of_A_GameEditor...
+  Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 6 actions with 16 processes...
+    [1/6] Hell_Of_A_Game.init.gen.cpp
+    [2/6] ACC_PlayerFunctions.cpp
+    [3/6] ACC_PlayerFunctions.gen.cpp
+    [4/6] UE4Editor-Hell_Of_A_Game-0040.lib
+       Creating library X:\Git\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\UE4Editor\Development\Hell_Of_A_Game\UE4Editor-Hell_Of_A_Game-0040.lib and object X:\Git\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\UE4Editor\Development\Hell_Of_A_Game\UE4Editor-Hell_Of_A_Game-0040.exp
+    [5/6] UE4Editor-Hell_Of_A_Game-0040.dll
+       Creating library X:\Git\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\UE4Editor\Development\Hell_Of_A_Game\UE4Editor-Hell_Of_A_Game-0040.suppressed.lib and object X:\Git\Studio3_Team1\Hell_Of_A_Game\Intermediate\Build\Win64\UE4Editor\Development\Hell_Of_A_Game\UE4Editor-Hell_Of_A_Game-0040.suppressed.exp
+    [6/6] Hell_Of_A_GameEditor.target
+  Total time in Parallel executor: 1.61 seconds
+  Total execution time: 8.42 seconds

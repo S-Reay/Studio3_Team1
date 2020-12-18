@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Hell_Of_A_Game.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{ED59EE06-D6E1-4E73-9AE5-AC6E409CE514}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Hell_Of_A_Game.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Hell_Of_A_GameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Hell_Of_A_Game.png" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{987B1A55-022A-4C89-8786-AB8F743526B6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Hell_Of_A_Game">
+      <UniqueIdentifier>{E40030B4-1BAB-4798-AF0C-C8A4E1EEDA02}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Hell_Of_A_Game\Hell_Of_A_Game.Build.cs">
+      <Filter>Source\Hell_Of_A_Game</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Hell_Of_A_Game\Hell_Of_A_Game.cpp">
+      <Filter>Source\Hell_Of_A_Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Hell_Of_A_Game\Hell_Of_A_Game.h">
+      <Filter>Source\Hell_Of_A_Game</Filter>
+    </ClInclude>
+    <Filter Include="Source\Hell_Of_A_Game\Private">
+      <UniqueIdentifier>{F50D0125-F62B-409B-8F9C-AA9BA00A139C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Hell_Of_A_Game\Private\ACC_PlayerFunctions.cpp">
+      <Filter>Source\Hell_Of_A_Game\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Hell_Of_A_Game\Public">
+      <UniqueIdentifier>{E754EA2A-2D94-47FD-B27E-4426A98A1BA3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Hell_Of_A_Game\Public\ACC_PlayerFunctions.h">
+      <Filter>Source\Hell_Of_A_Game\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
